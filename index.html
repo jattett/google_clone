@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+  />
+    <script src="https://kit.fontawesome.com/dd418006bb.js" crossorigin="anonymous"></script>
+        <title>My Bucket Lists</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="images/world.png">
+    </head>
+    
+    <body>
+    <header>
+      <!-- 인터넷창 맨위 -->
+  <div class="top-int"> 
+        <!-- 왼쪽 상단 버튼 -->
+        <ul class="button-list">
+        <li class="red"><button></button></li>
+        <li class="yellow"><button></button></li>
+        <li class="green"><button></button></li>
+      </ul>
+
+      <!-- 페이지 이름 칸  -->
+        <div class="seach-int">
+          <i class="fa-solid fa-earth-americas"></i> 
+          My Bucket Lists
+          <div class="sch-close">
+          <i class="fa-solid fa-x"></i>
+          </div>
+        </div>
+           <!-- 페이지 내 아이콘 -->
+           <i class="fa-sharp fa-solid fa-plus-large"></i>
+    </div>  
+
+        <!-- 검색창 --> 
+        <section class="top-search">
+          <!-- 검색 창 옆 아이콘 -->
+          <div class="src-icon">
+            <button onclick="window.history.back()">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button onclick="window.history.forward()">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+            <button onclick="location.reload(true);">
+              <i class="fa-sharp fa-solid fa-rotate-right"></i></button>
+          </div>
+            <!-- 인터넷 주소창 -->
+          <div class="top-src-text">
+          <input type="text" placeholder="www.과제어렵다.com">
+          </div>
+          <!-- 주소창 옆 아이콘  -->
+          <button class="Ellipsis">
+          ⋮
+          </button>
+        </section>
+    </header>  
+    <!-- 본문 -->
+    <main class="mylist">
+  
+		<h1 class="mainbox">
+     <div class=box-border></div>
+      My Bucket List
+    </h1>
+    <!-- 버켓 리스트 -->
+    <ul class="bucket-list">
+		<li>Travel all around the world</li>
+    <li>Learn a new language</li>
+    <li>Try a profession in a different field</li>
+    <li>Achieve your ideal weight</li>
+    <li>Run a marathon</li>
+   </ul>
+</main> 
+</body>
+</html>

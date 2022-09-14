@@ -1,0 +1,203 @@
+body {
+    margin: 0px;
+    position: fixed; 
+    width: 1500px;  
+}
+
+
+
+.top-int{
+    color: white;
+    display: flex;
+    background-color: black;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+.top-int ul {
+    display: flex; 
+    list-style: none;
+    padding: 13px;
+    margin-top: 0px;
+    margin: 0
+
+}
+
+
+.top-int li{
+    padding: 5px;
+    height: 10px;
+}
+
+.bucket-list{
+    cursor: pointer;
+}
+
+
+.top-int ul .red button{
+    background-color: #e4695e;
+    padding: 6px;
+    border: 0px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.top-int ul .yellow button{
+    background-color: #f0bf4f;
+    padding: 6px;
+    border: 0px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.top-int ul .green button{
+    background-color: #68c554;
+    padding: 6px;
+    border: 0px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+.seach-int{
+    display: inline-block;
+    background-color: #36363a;
+    color: white;
+    width: 140px;
+    height: 30px;
+    margin: 10px 0px 0px 0px;
+    padding: 10px 35px 0px 15px;
+    font-size: 15px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.seach-int .sch-close{
+    display:inline-block;
+    position: absolute;
+    top: 23px;
+    left: 250px;
+    font-size: 10px;
+}
+
+
+
+.top-search{
+    display: flex;
+    background-color: #36363a;
+    color: white;
+}
+
+.top-search .src-icon  {
+    padding: 10px 15px 20px 5px;
+}
+
+.top-search .src-icon button {
+    font-size: 15px;
+    padding: 5px 4px 5px 6px;
+    border: 0px;
+    background-color: #36363a;
+    color: white;
+    cursor: pointer;
+}
+
+.top-search .top-src-text input{
+    background-color: black;
+    border: 5px;
+    margin: 7px 20px 9px 0px;
+    padding: 6px;
+    width: 1300px;
+    border-radius: 10px;
+    color: white;
+    position: fixed;
+    word-break: all;
+}
+
+
+.top-search .Ellipsis{
+    display: inline-block;
+    position: fixed;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px;
+    left: 1420px;
+    color: white;
+    border: 0px;
+    background-color: #36363a;
+    cursor: pointer;
+}
+
+
+.mylist,h1{
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    background-color: #dddddd;
+  
+}
+
+h1{
+    box-shadow: 0px 0px 10px 0px gray;
+}
+
+.mainbox{
+    display: inline-block;
+    margin: 200px 500px 0px 500px;
+    padding: 50px 250px 40px 50px; 
+    background-color: white;
+    color: #ea3891; 
+    border-radius: 15px 15px 0px 0px;
+    font-weight: 900;
+    border-bottom: 5px solid #aaaaaa;
+    
+}
+
+
+.mainbox .box-border{
+    display: inline-block;
+    position: fixed;
+    padding: 10px 1px 10px 1px;
+    top: 360px;
+    left: 500px;
+    border: 5px solid;
+    background-color: #ea3891;
+}
+
+
+
+.bucket-list {
+    display: inline-block;
+    margin: 0px 500px 500px 500px;
+    padding: 20px 43px 25px 40px;
+    background-color: #efefef;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 1px 1px 10px 0px gray;
+}
+
+
+
+.bucket-list li{
+    font-size: 16px;
+    font-weight: 500;
+    border: 5px solid #aaaaaa;
+    border-radius: 5px;
+    color: #aaaaaa;
+    padding: 10px 160px 10px 15px;
+    margin: 15px 0px 15px 0px;
+    list-style: none;
+}
+
+
+
+
+.bucket-list li:hover{
+    border: 5px solid #ee3891;
+    box-shadow: 1px 1px 50px 0px gray;
+    color: black;
+    cursor: pointer;
+}
+
+    
+
+
+
+
